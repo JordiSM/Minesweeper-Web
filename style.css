@@ -1,6 +1,25 @@
+body {
+    background-color: aliceblue
+}
 .container {
     width: 500px;
+    height: 640px;
     align-content: center;
+    margin: auto;
+    background-color: #a8a596;
+}
+
+.img-container{
+    margin: auto;
+    width: 50px; height:50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid;
+    border-color: black;
+}
+#newGame {
+    background-image: url('static/C_Smile.png');
 }
 
 #grid{
@@ -9,10 +28,18 @@
     display: flex;
     flex-wrap: wrap;
     background-color: #dcd6bc;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 20px;
     border: 10px solid #dcd6bc;
 
+}
+
+#face{
+    height: 50px;
+    width: 50px;
+    background-color: whitesmoke;
+    border: 2px solid;
+    border-color: black;
 }
 
 div{
@@ -31,4 +58,9 @@ div{
 .checked {
     background-color: #a8a596;
     border-color: #a8a596;
+    border: 0px solid
+}
+
+h1 {
+    padding-top: 20px;
 }
