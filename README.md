@@ -1,1 +1,1 @@
-# Mineswaper-Web
+# Minesweeper-Web
