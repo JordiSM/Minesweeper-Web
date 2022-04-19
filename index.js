@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function createBoard() {
         SquaresLeft = (width * width) - nBombs
         isGameOver  = false
-        flagsLeft = 0
+        flagsLeft = nBombs
 
         for (let i = 0; i < width; i++) {
             squares[i] = []
